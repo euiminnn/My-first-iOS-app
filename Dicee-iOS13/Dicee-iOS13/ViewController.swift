@@ -15,12 +15,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         dice_one_real.image = #imageLiteral(resourceName: "DiceSix")
-        dice_one_real.alpha = 0.5
         dice_two.image = #imageLiteral(resourceName: "DiceFive")
     }
-    
+
     @IBAction func rollinBPressed(_ sender: UIButton) {
-        print("Button got tapped.")
+        dice_one_real.image = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix")][Int.random(in: 0...5)]
+        dice_two.image = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix")].randomElement()
     }
 }
 
