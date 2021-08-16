@@ -32,12 +32,14 @@ class ViewController: UIViewController {
 
     
     var questionNumber = 0
-    let questionMaxIndex = 2
+    var questionMaxIndex = 0
+    
     
     //initial load(when the view's opened)
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        questionMaxIndex = quiz.count - 1
         updateUI()
     }
 
@@ -45,26 +47,29 @@ class ViewController: UIViewController {
     @IBAction func answerButtonPressed(_ sender: UIButton) {
         
         let userAnswer = sender.currentTitle
-        let actualQuestion = quiz[questionNumber].text
+        //let actualQuestion = quiz[questionNumber].text
         let actualAnswer = quiz[questionNumber].answer
         if userAnswer == actualAnswer {
-            print("Right!")
+            sender.backgroundColor = UIColor.green
         } else {
-            print("Wrong.")
+            sender.backgroundColor = UIColor.red
         }
         //can use (quiz.count-1) instead of questionMaxIndes
         if questionNumber < questionMaxIndex {
+        //if questionNumber + 1 < quiz.count {
             questionNumber += 1
         }
         else {
             questionNumber = 0
         }
-        updateUI()
+        Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
     }
     
-    func updateUI() {
+    @objc func updateUI() {
         questionLabel.text = quiz[questionNumber].text
-
+        trueButton.backgroundColor = UIColor.clear
+        falseButton.backgroundColor = UIColor.clear
+        progressBar.progress = Float(questionNumber + 1) / Float(questionMaxIndex + 1)
     }
     
 }
