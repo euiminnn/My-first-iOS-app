@@ -51,6 +51,26 @@ class Artwork: NSObject, MKAnnotation {
 
     super.init()
   }
+  
+  init?(feature: MKGeoJSONFeature) {
+    // 1
+    guard
+      let point = feature.geometry.first as? MKPointAnnotation,
+      let propertiesData = feature.properties,
+      let json = try? JSONSerialization.jsonObject(with: propertiesData),
+      let properties = json as? [String: Any]
+      else {
+        return nil
+    }
+
+    // 3
+    title = properties["title"] as? String
+    locationName = properties["location"] as? String
+    discipline = properties["discipline"] as? String
+    coordinate = point.coordinate
+    super.init()
+  }
+
 
   var subtitle: String? {
     return locationName
@@ -69,5 +89,44 @@ class Artwork: NSObject, MKAnnotation {
     mapItem.name = title
     return mapItem
   }
+  
+  //add color
+  var markerTintColor: UIColor  {
+    switch discipline {
+    case "Monument":
+      return .red
+    case "Mural":
+      return .cyan
+    case "Plaque":
+      return .blue
+    case "Sculpture":
+      return .purple
+    default:
+      return .green
+    }
+  }
+  
+  //add image
+  var image: UIImage {
+    guard let name = discipline else {
+      return #imageLiteral(resourceName: "Flag")
+    }
 
+    switch name {
+    case "Monument":
+      return #imageLiteral(resourceName: "Monument")
+    case "Sculpture":
+      return #imageLiteral(resourceName: "Sculpture")
+    case "Plaque":
+      return #imageLiteral(resourceName: "Plaque")
+    case "Mural":
+      return #imageLiteral(resourceName: "Mural")
+    default:
+      return #imageLiteral(resourceName: "Flag")
+    }
+  }
 }
+
+
+
+

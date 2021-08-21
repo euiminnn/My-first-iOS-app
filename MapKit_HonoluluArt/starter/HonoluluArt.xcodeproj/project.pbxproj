@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A9A8C6A26D101D000577502 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A8C6926D101CF00577502 /* Artwork.swift */; };
+		3A9A8C6C26D1158000577502 /* ArtworkViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A8C6B26D1158000577502 /* ArtworkViews.swift */; };
 		494A05D023C1CAFD00A919D4 /* PublicArt.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 494A05CF23C1CAFD00A919D4 /* PublicArt.geojson */; };
 		49D5371923CC73880086C391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D5371823CC73880086C391 /* ViewController.swift */; };
 		5394F02521864DF5006E754C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5394F02321864DF4006E754C /* LaunchScreen.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3A9A8C6926D101CF00577502 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		3A9A8C6B26D1158000577502 /* ArtworkViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViews.swift; sourceTree = "<group>"; };
 		494A05CF23C1CAFD00A919D4 /* PublicArt.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PublicArt.geojson; sourceTree = "<group>"; };
 		49D5371823CC73880086C391 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5394F02421864DF4006E754C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				D2A5F20A1F4A9144005CD714 /* Assets.xcassets */,
 				D2A5F20F1F4A9144005CD714 /* Info.plist */,
 				3A9A8C6926D101CF00577502 /* Artwork.swift */,
+				3A9A8C6B26D1158000577502 /* ArtworkViews.swift */,
 			);
 			path = HonoluluArt;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D5371923CC73880086C391 /* ViewController.swift in Sources */,
+				3A9A8C6C26D1158000577502 /* ArtworkViews.swift in Sources */,
 				3A9A8C6A26D101D000577502 /* Artwork.swift in Sources */,
 				D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */,
 			);

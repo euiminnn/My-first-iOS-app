@@ -50,17 +50,63 @@ class ViewController: UIViewController {
     mapView.setCameraZoomRange(zoomRange, animated: true)
     
     mapView.delegate = self
+
+    /*
+    mapView.register(
+      ArtworkMarkerView.self,
+      forAnnotationViewWithReuseIdentifier:
+        MKMapViewDefaultAnnotationViewReuseIdentifier)
+    */
     
-    // Show artwork on map
+    //icons
+    mapView.register(
+      ArtworkView.self,
+      forAnnotationViewWithReuseIdentifier:
+        MKMapViewDefaultAnnotationViewReuseIdentifier)
+
+    loadInitialData()
+    
+    //draw an artwork(King DK) on map
+    /*
     let artwork = Artwork(
       title: "King David Kalakaua",
       locationName: "Waikiki Gateway Park",
       discipline: "Sculpture",
       coordinate: CLLocationCoordinate2D(latitude: 21.283921, longitude: -157.831661))
     mapView.addAnnotation(artwork)
-
+    */
+    
+    
+    //draw all the artwork
+    mapView.addAnnotations(artworks)
 
   }
+  private var artworks: [Artwork] = []
+  
+  private func loadInitialData() {
+    // 1
+    guard
+      let fileName = Bundle.main.url(forResource: "PublicArt", withExtension: "geojson"),
+      let artworkData = try? Data(contentsOf: fileName)
+      else {
+        return
+    }
+
+    do {
+      // 2
+      let features = try MKGeoJSONDecoder()
+        .decode(artworkData)
+        .compactMap { $0 as? MKGeoJSONFeature }
+      // 3
+      let validWorks = features.compactMap(Artwork.init)
+      // 4
+      artworks.append(contentsOf: validWorks)
+    } catch {
+      // 5
+      print("Unexpected error: \(error).")
+    }
+  }
+
 }
 
 //initial range
@@ -73,7 +119,7 @@ private extension MKMapView {
 
 //difference?
 extension ViewController: MKMapViewDelegate {
-  
+  /*
   // 1
   func mapView(
     _ mapView: MKMapView,
@@ -102,7 +148,7 @@ extension ViewController: MKMapViewDelegate {
     }
     return view
   }
-  
+  */
   //add this? not replace it? yes to give a direction(activate info button)
   func mapView(
     _ mapView: MKMapView,
