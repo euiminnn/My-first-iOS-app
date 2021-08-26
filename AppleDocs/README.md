@@ -159,13 +159,13 @@
     </tr>
     <tr>
 	    <td valign="top" width="33%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/navi_v.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/table_v.png" style="height: 100px"/>
 	    </td>
 	    <td valign="top" width="33%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/search_v.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/text_v.png" style="height: 100px"/>
 	    </td>
 	    <td valign="top" width="34%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/side_v.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/web_v.png" style="height: 100px"/>
 	    </td>
     </tr>
 </table>
