@@ -62,24 +62,31 @@
 
     <p align = "left"><img src = "https://github.com/euiminnn/image-upload/blob/master/search_b.png" width = "200"></p>
 
-<table>
-    <tr>
-        <td><b style="font-size:30px">내비게이션 바 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/bars/navigation-bars/">[링크]</a></b></td>
-        <td><b style="font-size:30px">서치 바</b></td>
-    </tr>
-    <tr>
-	    <td valign="top" width="50%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/navi_b.png" style="height: 50px"/>
-	    </td>
-	    <td valign="top" width="50%">
-		<img src="https://github.com/euiminnn/image-upload/blob/master/search_b.png" style="height: 50px"/>
-	    </td>
-    </tr>
-</table>
+
 
 - 사이드 바 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/bars/sidebars/)]
 
     <p align = "left"><img src = "https://github.com/euiminnn/image-upload/blob/master/side_b.png" width = "200"></p>
+    
+<table>
+    <tr>
+        <td><b style="font-size:40px">내비게이션 바 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/bars/navigation-bars/">[링크]</a></b></td>
+        <td><b style="font-size:40px">서치 바<a href="https://developer.apple.com/design/human-interface-guidelines/ios/bars/search-bars/">[링크]</a></b></td>
+	<td><b style="font-size:40px">사이드 바<a href="https://developer.apple.com/design/human-interface-guidelines/ios/bars/side-bars/">[링크]</a></b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/navi_b.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/search_b.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/side_b.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>    
+    
 
 - 상태 바 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/bars/status-bars/)]
 
