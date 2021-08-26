@@ -205,7 +205,7 @@
 		    <img src="https://github.com/euiminnn/image-upload/blob/master/label_c.png" style="height: 100px"/>
 	    </td>
 	    <td valign="top" width="34%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/page_c_c.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/page_c.png" style="height: 100px"/>
 	    </td>
     </tr>
 </table>
