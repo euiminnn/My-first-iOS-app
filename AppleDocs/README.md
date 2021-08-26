@@ -121,13 +121,13 @@
     </tr>
     <tr>
 	    <td valign="top" width="33%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/collection_b.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/collection_v.png" style="height: 100px"/>
 	    </td>
 	    <td valign="top" width="33%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/img_b.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/img_v.png" style="height: 100px"/>
 	    </td>
 	    <td valign="top" width="34%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/page_b.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/page_v.png" style="height: 100px"/>
 	    </td>
     </tr>
 </table>
@@ -140,13 +140,13 @@
     </tr>
     <tr>
 	    <td valign="top" width="33%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/popover_b.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/popover_v.png" style="height: 100px"/>
 	    </td>
 	    <td valign="top" width="33%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/split_b.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/split_v.png" style="height: 100px"/>
 	    </td>
 	    <td valign="top" width="34%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/scroll_b.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/scroll_v.png" style="height: 100px"/>
 	    </td>
     </tr>
 </table>    
@@ -159,13 +159,13 @@
     </tr>
     <tr>
 	    <td valign="top" width="33%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/navi_b.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/navi_v.png" style="height: 100px"/>
 	    </td>
 	    <td valign="top" width="33%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/search_b.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/search_v.png" style="height: 100px"/>
 	    </td>
 	    <td valign="top" width="34%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/side_b.png" style="height: 100px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/side_v.png" style="height: 100px"/>
 	    </td>
     </tr>
 </table>
