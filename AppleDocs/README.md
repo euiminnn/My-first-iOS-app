@@ -69,10 +69,10 @@
     </tr>
     <tr>
 	    <td valign="top" width="50%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/navi_b.png" style="height: 80px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/navi_b.png" style="height: 50px"/>
 	    </td>
 	    <td valign="top" width="50%">
-		<img src="https://github.com/euiminnn/image-upload/blob/master/search_b.png" style="height: 80px"/>
+		<img src="https://github.com/euiminnn/image-upload/blob/master/search_b.png" style="height: 50px"/>
 	    </td>
     </tr>
 </table>
