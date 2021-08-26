@@ -64,7 +64,7 @@
 
 <table>
     <tr>
-        <td><b style="font-size:30px">내비게이션 바 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/bars/navigation-bars/">Visit W3Schools.com!</a></b></td>
+        <td><b style="font-size:30px">내비게이션 바 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/bars/navigation-bars/">[링크]</a></b></td>
         <td><b style="font-size:30px">서치 바</b></td>
     </tr>
     <tr>
