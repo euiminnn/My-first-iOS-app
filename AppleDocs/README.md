@@ -301,11 +301,11 @@
         <td><b style="font-size:40px">Modal View</b></td>
     </tr>
     <tr>
-	    <td valign="top" width="33%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/alert.png" style="height: 100px"/>
+	    <td valign="top" width="50%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/alert.png" style="height: 20px"/>
 	    </td>
-	    <td valign="top" width="33%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/modal_v.png" style="height: 100px"/>
+	    <td valign="top" width="50%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/modal_v.png" style="height: 20px"/>
 	    </td>
     </tr>
 </table>
