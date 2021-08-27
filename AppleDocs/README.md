@@ -298,10 +298,10 @@
 <table>
     <tr>
 	    <td valign="top" width="50%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/alert.png" width = "100">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/alert.png" width = "200">
 	    </td>
 	    <td valign="top" width="50%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/modal_v.png" width = "100">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/modal_v.png" width = "300">
 	    </td>
     </tr>
 </table>
