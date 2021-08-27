@@ -297,15 +297,11 @@
 
 <table>
     <tr>
-        <td><b style="font-size:40px">Alert</b></td>
-        <td><b style="font-size:40px">Modal View</b></td>
-    </tr>
-    <tr>
 	    <td valign="top" width="50%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/alert.png" style="height: 20px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/alert.png" width = "100">
 	    </td>
 	    <td valign="top" width="50%">
-		    <img src="https://github.com/euiminnn/image-upload/blob/master/modal_v.png" style="height: 20px"/>
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/modal_v.png" width = "100">
 	    </td>
     </tr>
 </table>
