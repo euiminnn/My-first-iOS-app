@@ -266,3 +266,52 @@
 	    </td>
     </tr>
 </table>
+
+
+# 앱 구조
+
+## 1. Launching
+
+- launch screen(빈 화면도 ok) 제공하기 -> 콘텐츠 로딩 전에 화면을 띄워서 사용자가 기다리지 않도록
+- 처음부터 setup을 요구하지 말기 -> 기본 세팅으로 일단 앱을 작동하게
+- 앱을 다시 켤 때 이전 상태 유지하기
+- 앱 평점 매기기를 너무 이르거나 너무 자주 요구하지 않기
+- in-app licensing agreements와 disclaimers 들은 앱이 아니라 앱스토어에 띄우기
+
+## 2. Onboarding
+
+- 처음 이용하는 유저에게 튜토리얼 제공하기
+- What's New 등을 통해 업데이트된 내역 공유하기
+- 사용자가 사용법을 익히는 과정을 즐겁게 만들기
+
+## 3. Loading
+
+- 로딩중일 때의 상태를 시각적으로 보여주어 인지시키기
+- 로딩 시간을 즐겁게 만들기
+	- 게임 플레이에 힌트 제공 등
+
+## 4. Modality
+
+- 현재 상태를 벗어나 다른 액션을 요구하는 디자인 테크닉
+- alerts 혹은 activity views를 이용
+
+<table>
+    <tr>
+        <td><b style="font-size:40px">Alert</b></td>
+        <td><b style="font-size:40px">Modal View</b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/alert.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/modal_v.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>
+
+## 5. Navigation
+
+## 6. Accessing User Data
+
+## 7. Settings
