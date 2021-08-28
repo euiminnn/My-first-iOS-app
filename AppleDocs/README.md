@@ -308,6 +308,93 @@
 
 ## 5. Navigation
 
-## 6. Accessing User Data
+- 앱 내 깔끔한 이동경로 제공하기
+    - 각 화면에서 한 경로만 제공
+    - 그 이상 필요한 경우에는 Action Sheets, Alerts, Popovers, Modality 등 활용
+- iOS에서 사용되는 세 가지 대표적인 스타일
+
+<table>
+    <tr>
+        <td><b style="font-size:40px">Hierarchical Navigation</b></td>
+        <td><b style="font-size:40px">Flat Navigation</b></td>
+	<td><b style="font-size:40px">Content-Driven Navigation</b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/hierarchical_n.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/flat_n.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/content-driven_n.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>
+
+## 6. Accessing User Data and Resources
+
+- private한 정보에 대해 항상 사용(접근) 동의를 묻기
+- 사용 허락 버튼을 유도하지 말기
 
 ## 7. Settings
+
+- 기본 설정 그대로도 잘 작동하도록 만들기
+- 조금의 개인 설정을 통해 더 나은 경험도 가능하게 하기
+
+# Visual Design
+
+## 1. Branding
+
+- 폰트, 색상, 이미지의 적절한 활용을 통해 브랜딩
+- iOS 앱 느낌으로 만들기
+    - 직관적이고, 사용하기 쉬우며, 내용에 집중되도록
+
+## 2. Color
+
+- 앱 로고와 비슷한 색상으로 제한된 팔레트만 사용하기
+- 라이트모드와 다크모드 둘 다 지원
+- 다양한 빛 아래에서 앱의 컬러 스킴이 괜찮은지 테스트해보기
+- True Tone 사용했을 때 색이 어떻게 변하는지 확인하기
+- 다른 나라와 다른 문화권에서 그 색이 그 의미를 전달하는지 고려하기
+
+## 3. Launch Screen
+
+- 앱 시작될 때 켜지는 화면
+- 내용을 담을 필요는 없지만, 앱이 빠르게 작동한다는 것을 보여주기 위함
+- 내용이 없다는 것을 제외하고는 first screen과 거의 유사하게 디자인하기
+
+<table>
+    <tr>
+	    <td valign="top" width="50%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/launchscreen_vd.png" width = "300">
+	    </td>
+	    <td valign="top" width="50%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/firstscreen_vd.png" width = "300">
+	    </td>
+    </tr>
+</table>
+
+## 4. Materials
+
+- blur 효과
+- 깊이를 보여주기 위해 사용
+
+## 5. Typography
+
+- 애플은 SF, NY 두 가지의 폰트를 제공
+
+<table>
+    <tr>
+        <td><b style="font-size:40px">San Francisco (SF)</b></td>
+        <td><b style="font-size:40px">New York (NY)</b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="50%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/SF_font.png" width = "300">
+	    </td>
+	    <td valign="top" width="50%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/NY_font.png" width = "300">
+	    </td>
+    </tr>
+</table>
