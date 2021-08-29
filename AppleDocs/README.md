@@ -54,144 +54,347 @@
 
 ## 1. Bars
 
-- 내비게이션 바 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/bars/navigation-bars/)]
+<table>
+    <tr>
+        <td><b style="font-size:40px">내비게이션 바 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/bars/navigation-bars/">[링크]</a></b></td>
+        <td><b style="font-size:40px">서치 바 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/bars/search-bars/">[링크]</a></b></td>
+	<td><b style="font-size:40px">사이드 바 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/bars/side-bars/">[링크]</a></b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/navi_b.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/search_b.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/side_b.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>    
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/74475ccd-f9c6-4da1-b300-9ff0aed4c481/Untitled.png)
-
-- 서치 바 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/bars/search-bars/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1173d6a0-1d75-4d60-bf68-84ef9317c010/Untitled.png)
-
-- 사이드 바 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/bars/sidebars/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ff4f02e-8d24-4c91-8323-805d278ef359/Untitled.png)
-
-- 상태 바 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/bars/status-bars/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a437e534-d9ad-4b06-8ba7-f5fcaaa4083c/Untitled.png)
-
-- 탭 바 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/bars/tab-bars/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d161fe86-4a53-47c9-8764-8d08baaf2dd9/Untitled.png)
-
-- 툴 바 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/bars/toolbars/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/10211003-cbaf-41eb-8fb4-2217e7bef2c1/Untitled.png)
+<table>
+    <tr>
+        <td><b style="font-size:40px">상태 바 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/bars/status-bars/">[링크]</a></b></td>
+        <td><b style="font-size:40px">탭 바 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/bars/tab-bars/">[링크]</a></b></td>
+	<td><b style="font-size:40px">툴 바 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/bars/toolbars/">[링크]</a></b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/status_b.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/tap_b.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/tool_b.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>
 
 ## 2. Views
-
-- 액션 시트 뷰 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/views/action-sheets/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78392a99-e4e2-47a0-be54-f89d2212cc09/Untitled.png)
-
-- 액티비티 뷰 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/views/activity-views/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de23f328-70c9-4748-ad07-23bf4bd0cd49/Untitled.png)
-
-- 알람 뷰 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/views/alerts/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eacd08d4-3350-47d5-835c-a256f37b16c8/Untitled.png)
-
-- 컬렉션 뷰 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/views/collections/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a07a5aba-3476-4710-b64c-1e4b9cee00b9/Untitled.png)
-
-- 이미지 뷰 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/views/image-views/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/37aef0f6-a982-44ec-9ec4-6cd2b262b1f7/Untitled.png)
-
-- 페이지 뷰 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/views/pages/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f217243-2ec0-4283-9cdf-6a1b4c1145cd/Untitled.png)
-
-- 팝오버 뷰 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/views/popovers/)]
-    - 아이폰에서는 사용 지양
-
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/653d284c-3312-4e62-ba1e-4eecaaedc466/Untitled.png)
-
-- 스플릿 뷰 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/views/split-views/)]
-    - 아이패드에서는 탭바 대신 스플릿 뷰
-
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31365add-c373-4dc0-96df-787a688ce66e/Untitled.png)
-
-- 스크롤 뷰 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/views/scroll-views/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1ce1501-a710-445a-87e5-2dd27eadff50/Untitled.png)
-
-- 테이블 뷰 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/views/tables/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79873f13-ee5c-49cd-873f-0ade7430b8f3/Untitled.png)
-
-- 텍스트 뷰 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/views/text-views/)]
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6688c951-e680-429f-827b-beaf1b2e5813/Untitled.png)
-
-- 웹 뷰 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/views/web-views/)]
-    - ex. embedded html
-
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31c6b9dd-e3fe-45ab-8a30-679dcae8e31d/Untitled.png)
+    
+<table>
+    <tr>
+        <td><b style="font-size:40px">액션 시트 뷰 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/views/action-sheets/">[링크]</a></b></td>
+        <td><b style="font-size:40px">액티비티 뷰 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/views/activity-views/">[링크]</a></b></td>
+	<td><b style="font-size:40px">알람 뷰 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/views/alerts/">[링크]</a></b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/acsheet_v.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/act_v.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/alert_v.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>
+    
+<table>
+    <tr>
+        <td><b style="font-size:40px">컬렉션 뷰 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/views/collections/">[링크]</a></b></td>
+        <td><b style="font-size:40px">이미지 뷰 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/views/image-views/">[링크]</a></b></td>
+	<td><b style="font-size:40px">페이지 뷰 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/views/pages/">[링크]</a></b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/collection_v.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/img_v.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/page_v.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>
+    
+<table>
+    <tr>
+        <td><b style="font-size:40px">팝오버 뷰 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/views/popovers/">[링크]</a></b></td>
+        <td><b style="font-size:40px">스플릿 뷰 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/views/split-views/">[링크]</a></b></td>
+	<td><b style="font-size:40px">스크롤 뷰 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/views/scroll-views/">[링크]</a></b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/popover_v.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/split_v.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/scroll_v.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>    
+	
+<table>
+    <tr>
+        <td><b style="font-size:40px">테이블 뷰 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/views/tables/">[링크]</a></b></td>
+        <td><b style="font-size:40px">텍스트 뷰 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/views/text-views/">[링크]</a></b></td>
+	<td><b style="font-size:40px">웹 뷰 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/views/web-views/">[링크]</a></b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/table_v.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/text_v.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/web_v.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>
 
 ## 3. Controls
 
-- 버튼 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/buttons/)]
+<table>
+    <tr>
+        <td><b style="font-size:40px">버튼 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/buttons/">[링크]</a></b></td>
+        <td><b style="font-size:40px">컬러 피커 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/color-wells/">[링크]</a></b></td>
+	<td><b style="font-size:40px">컨텍스트 메뉴 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/context-menus/">[링크]</a></b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/button_c.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/color_c.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/context_c.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>
+    
+<table>
+    <tr>
+        <td><b style="font-size:40px">편집 메뉴 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/edit-menues/">[링크]</a></b></td>
+        <td><b style="font-size:40px">라벨 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/labels/">[링크]</a></b></td>
+	<td><b style="font-size:40px">페이지 컨트롤 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/page-controls/">[링크]</a></b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/edit_c.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/label_c.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/page_c.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>
+    
+<table>
+    <tr>
+        <td><b style="font-size:40px">선택 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/pickers/">[링크]</a></b></td>
+        <td><b style="font-size:40px">상태 알림 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/progress-indicators/">[링크]</a></b></td>
+	<td><b style="font-size:40px">풀 다운 메뉴 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/pull-down-menus/">[링크]</a></b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/picker_c.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/status_c.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/pulldown_c.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>
+    
+<table>
+    <tr>
+        <td><b style="font-size:40px">리프레시(업데이트) <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/refresh-content-controls/">[링크]</a></b></td>
+        <td><b style="font-size:40px">세그먼트 컨트롤 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/segmented-controls/">[링크]</a></b></td>
+	<td><b style="font-size:40px">슬라이더 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/sliders/">[링크]</a></b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/update_c.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/segmented_c.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/sliders_c.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>
+    
+<table>
+    <tr>
+        <td><b style="font-size:40px">스텝퍼 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/steppers/">[링크]</a></b></td>
+        <td><b style="font-size:40px">스위치 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/switches/">[링크]</a></b></td>
+	<td><b style="font-size:40px">텍스트 필드 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/controls/text-fields/">[링크]</a></b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/stepper_c.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/switch_c.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/text_c.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3f1b37ce-b820-4faa-88f2-2cee0663ed71/Untitled.png)
 
-- 컬러 피커 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/color-wells/)]
+# 앱 구조
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e823757a-7715-4668-a01e-908d2fd0a63f/Untitled.png)
+## 1. Launching
 
-- 컨텍스트 메뉴 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/context-menus/)]
-    - 현재 스크린에서 전환 없이 추가적인 기능
+- launch screen(빈 화면도 ok) 제공하기 -> 콘텐츠 로딩 전에 화면을 띄워서 사용자가 기다리지 않도록
+- 처음부터 setup을 요구하지 말기 -> 기본 세팅으로 일단 앱을 작동하게
+- 앱을 다시 켤 때 이전 상태 유지하기
+- 앱 평점 매기기를 너무 이르거나 너무 자주 요구하지 않기
+- in-app licensing agreements와 disclaimers 들은 앱이 아니라 앱스토어에 띄우기
 
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4a6ad82a-aeec-4289-8a15-94d52178f30e/Untitled.png)
+## 2. Onboarding
 
-- 편집 메뉴 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/edit-menus/)]
+- 처음 이용하는 유저에게 튜토리얼 제공하기
+- What's New 등을 통해 업데이트된 내역 공유하기
+- 사용자가 사용법을 익히는 과정을 즐겁게 만들기
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ec91df5e-1b71-4970-a1f5-a488cd5de633/Untitled.png)
+## 3. Loading
 
-- 라벨 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/labels/)]
+- 로딩중일 때의 상태를 시각적으로 보여주어 인지시키기
+- 로딩 시간을 즐겁게 만들기
+	- 게임 플레이에 힌트 제공 등
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e9d025f3-315f-4b0a-b22d-18168b31a215/Untitled.png)
+## 4. Modality
 
-- 페이지 컨트롤 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/page-controls/)]
+- 현재 상태를 벗어나 다른 액션을 요구하는 디자인 테크닉
+- alerts 혹은 activity views를 이용
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59859904-e3d2-45d3-bd2b-6fadb0022eba/Untitled.png)
+<table>
+    <tr>
+	    <td valign="top" width="50%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/alert.png" width = "300">
+	    </td>
+	    <td valign="top" width="50%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/modal_v.png" width = "300">
+	    </td>
+    </tr>
+</table>
 
-- 선택 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/pickers/)]
+## 5. Navigation
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bcd54719-43e0-47f8-aeb6-f2eca0b8f31f/Untitled.png)
+- 앱 내 깔끔한 이동경로 제공하기
+    - 각 화면에서 한 경로만 제공
+    - 그 이상 필요한 경우에는 Action Sheets, Alerts, Popovers, Modality 등 활용
+- iOS에서 사용되는 세 가지 대표적인 스타일
 
-- 상태 알림 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/progress-indicators/)]
+<table>
+    <tr>
+        <td><b style="font-size:40px">Hierarchical Navigation</b></td>
+        <td><b style="font-size:40px">Flat Navigation</b></td>
+	<td><b style="font-size:40px">Content-Driven Navigation</b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/hierarchical_n.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="33%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/flat_n.png" style="height: 100px"/>
+	    </td>
+	    <td valign="top" width="34%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/content-driven_n.png" style="height: 100px"/>
+	    </td>
+    </tr>
+</table>
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55bb823f-d12f-4ef2-8d4a-75f2a27619dc/Untitled.png)
+## 6. Accessing User Data and Resources
 
-- 풀 다운 메뉴 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/pull-down-menus/)]
+- private한 정보에 대해 항상 사용(접근) 동의를 묻기
+- 사용 허락 버튼을 유도하지 말기
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/37bbd368-f1b8-4984-90c9-9ff1041e73e6/Untitled.png)
+## 7. Settings
 
-- 리프레시(업데이트) [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/refresh-content-controls/)]
-    - 아래로 잡아당기면 페이지 리프레시
+- 기본 설정 그대로도 잘 작동하도록 만들기
+- 조금의 개인 설정을 통해 더 나은 경험도 가능하게 하기
 
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80315502-7dad-489b-a574-70be3b2067ff/Untitled.png)
+# Visual Design
 
-- 세그먼트 컨트롤 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/segmented-controls/)]
-    - 예시: Maps 에서 화면 전환
+## 1. Branding
 
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/189fe35c-3b63-4617-90fa-27bacdfa214c/Untitled.png)
+- 폰트, 색상, 이미지의 적절한 활용을 통해 브랜딩
+- iOS 앱 느낌으로 만들기
+    - 직관적이고, 사용하기 쉬우며, 내용에 집중되도록
 
-- 슬라이더 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/sliders/)]
+## 2. Color
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de4d7a64-f682-4217-96ff-35e7fb083fd8/Untitled.png)
+- 앱 로고와 비슷한 색상으로 제한된 팔레트만 사용하기
+- 라이트모드와 다크모드 둘 다 지원
+- 다양한 빛 아래에서 앱의 컬러 스킴이 괜찮은지 테스트해보기
+- True Tone 사용했을 때 색이 어떻게 변하는지 확인하기
+- 다른 나라와 다른 문화권에서 그 색이 그 의미를 전달하는지 고려하기
 
-- 스텝퍼 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/steppers/)]
+## 3. Launch Screen
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e222a5fd-2447-4753-a0e4-8d91e8e18a63/Untitled.png)
+- 앱 시작될 때 켜지는 화면
+- 내용을 담을 필요는 없지만, 앱이 빠르게 작동한다는 것을 보여주기 위함
+- 내용이 없다는 것을 제외하고는 first screen과 거의 유사하게 디자인하기
 
-- 스위치 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/switches/)]
+<table>
+    <tr>
+	    <td valign="top" width="50%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/launchscreen_vd.png" width = "300">
+	    </td>
+	    <td valign="top" width="50%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/firstscreen_vd.png" width = "300">
+	    </td>
+    </tr>
+</table>
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d4bbd828-f44b-41ba-87b1-c88f67567c92/Untitled.png)
+## 4. Materials
 
-- 텍스트 필드 [[링크](https://developer.apple.com/design/human-interface-guidelines/ios/controls/text-fields/)]
+- blur 효과
+- 깊이를 보여주기 위해 사용
 
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/10661979-d6a2-4b6b-963f-d2693510e412/Untitled.png)
+## 5. Typography
+
+- 애플은 SF, NY 두 가지의 폰트를 제공
+
+<table>
+    <tr>
+        <td><b style="font-size:40px">San Francisco (SF)</b></td>
+        <td><b style="font-size:40px">New York (NY)</b></td>
+    </tr>
+    <tr>
+	    <td valign="top" width="50%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/SF_font.png" width = "300">
+	    </td>
+	    <td valign="top" width="50%">
+		    <img src="https://github.com/euiminnn/image-upload/blob/master/NY_font.png" width = "300">
+	    </td>
+    </tr>
+</table>
