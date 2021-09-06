@@ -17,6 +17,7 @@ struct CalculatorBrain {
     }
     
     mutating func calculateBMI(height: Float, weight: Float) {
+        //bmi in line 21 == bmi in line 12 (mutating)
         bmi = weight / (height * height)
     }
 }
