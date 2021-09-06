@@ -12,7 +12,7 @@ struct CalculatorBrain {
     var bmi: Float? = nil
     
     func getBMIValue() -> String {
-        let bmiTo1DecimalPlace = String(format: "%.1f", bmi)
+        let bmiTo1DecimalPlace = String(format: "%.1f", bmi ?? "0.0")
         return bmiTo1DecimalPlace
     }
     

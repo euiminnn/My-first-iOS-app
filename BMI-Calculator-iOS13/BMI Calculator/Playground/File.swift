@@ -7,3 +7,6 @@
 //
 
 import Foundation
+let myOptional: String?
+myOptional = nil
+let text: String = myOptional!
