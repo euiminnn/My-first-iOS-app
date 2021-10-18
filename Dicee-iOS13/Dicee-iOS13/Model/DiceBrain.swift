@@ -11,7 +11,7 @@ import Foundation
 struct DiceBrain {
     var scoreOfPlayerOne = 0
     var scoreOfPlayerTwo = 0
-    var score = 0
+//    var score = 0
     
     func checkWinner() -> String {
         if scoreOfPlayerOne > scoreOfPlayerTwo {
