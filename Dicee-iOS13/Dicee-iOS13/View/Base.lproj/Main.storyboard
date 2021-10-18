@@ -70,8 +70,8 @@
                     </view>
                     <connections>
                         <outlet property="ResultLabel" destination="pAd-5Y-SVi" id="xld-BU-NTb"/>
-                        <outlet property="dice_one_real" destination="HgP-B7-ZWH" id="ZJs-FB-R8x"/>
-                        <outlet property="dice_two" destination="sf4-Xc-a2P" id="Nfw-Dz-hKd"/>
+                        <outlet property="diceOne" destination="HgP-B7-ZWH" id="ZJs-FB-R8x"/>
+                        <outlet property="diceTwo" destination="sf4-Xc-a2P" id="Nfw-Dz-hKd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
