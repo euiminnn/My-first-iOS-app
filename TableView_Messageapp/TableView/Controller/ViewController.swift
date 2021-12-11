@@ -10,15 +10,16 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
-    let cellIdentifier: String = "ReusableCell"
+//    let cellIdentifier: String = "ReusableCell"
     var messages: [Message] = [
         Message(sender: "1@2.com", body: "Hey!"),
         Message(sender: "a@b.com", body: "Hello!"),
-        Message(sender: "1@2.com", body: "What's up?")
+        Message(sender: "1@2.com", body: "Text me Merry Christmas and send a selfie too")
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
+        tableView.register(UINib(nibName: Global.cellNibName, bundle: nil), forCellReuseIdentifier: Global.cellIdentifier)
         // Do any additional setup after loading the view.
     }
 
@@ -31,8 +32,8 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
-        cell.textLabel?.text = messages[indexPath.row].body
+        let cell = tableView.dequeueReusableCell(withIdentifier: Global.cellIdentifier, for: indexPath) as! MessageCell //to use custom "MessageCell"
+        cell.label.text = messages[indexPath.row].body
         return cell
     }
     
