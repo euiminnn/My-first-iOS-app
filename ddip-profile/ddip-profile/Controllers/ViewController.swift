@@ -6,14 +6,28 @@
 //
 
 import UIKit
+var nickname_ex: String = "skysky"
+var diceCount_ex: String = "16"
+var highestScore_ex: String = "32"
+var winCount_ex: String = "10"
+var loseCount_ex: String = "4"
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nickname: UILabel!
+    @IBOutlet weak var diceCount: UILabel!
+    @IBOutlet weak var highestScore: UILabel!
+    @IBOutlet weak var winCount: UILabel!
+    @IBOutlet weak var loseCount: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        nickname.text = "nickname: \(nickname_ex)"
+        diceCount.text = "dice_count: \(diceCount_ex)"
+        highestScore.text = "highest_score: \(highestScore_ex)"
+        winCount.text = "win_count: \(winCount_ex)"
+        loseCount.text = "lose_count: \(loseCount_ex)"
     }
-
-
+    
 }
 
