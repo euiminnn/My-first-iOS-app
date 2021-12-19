@@ -48,4 +48,8 @@ extension RankViewController: UITableViewDataSource {
         cell.detailTextLabel?.text = users[indexPath.row].diceCount
         return cell
     }
+    func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        print(indexPath.row)
+        print("HI")
+    }
 }
