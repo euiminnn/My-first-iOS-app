@@ -18,7 +18,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="duO-tM-D7f">
                                 <rect key="frame" x="87" y="257" width="240" height="137"/>
-                                <color key="tintColor" systemColor="systemBrownColor"/>
+                                <color key="tintColor" red="0.2802833018" green="0.15231505300000001" blue="0.087247298129999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="138" id="Dbm-e7-I1z"/>
                                 </constraints>
@@ -70,17 +70,27 @@
                                     <segue destination="CKG-LT-xzE" kind="show" id="TNP-dt-BH7"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🎲 DuelDice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3IJ-jN-zdD" userLabel="Title Label" customClass="CLTypingLabel" customModule="CLTypingLabel">
+                                <rect key="frame" x="64" y="136" width="287" height="60"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="50"/>
+                                <color key="textColor" red="0.2802833017676768" green="0.15231505300683337" blue="0.087247298127429693" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hKr-Uh-g8Z" secondAttribute="trailing" constant="182" id="3F0-GO-H1r"/>
                             <constraint firstItem="duO-tM-D7f" firstAttribute="top" secondItem="hKr-Uh-g8Z" secondAttribute="bottom" constant="12.5" id="4ze-DK-BZf"/>
+                            <constraint firstItem="3IJ-jN-zdD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="7Ve-XE-Qn7"/>
                             <constraint firstItem="duO-tM-D7f" firstAttribute="centerX" secondItem="hKr-Uh-g8Z" secondAttribute="centerX" id="A3R-j4-paU"/>
+                            <constraint firstItem="3IJ-jN-zdD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="AKy-2q-H8w"/>
                             <constraint firstItem="duO-tM-D7f" firstAttribute="top" secondItem="hKr-Uh-g8Z" secondAttribute="bottom" constant="12.5" id="E5t-1f-O2g"/>
                             <constraint firstItem="ga9-71-HF9" firstAttribute="top" secondItem="duO-tM-D7f" secondAttribute="bottom" constant="60" id="JEO-fH-m6a"/>
                             <constraint firstItem="ga9-71-HF9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="KZC-En-Y4b"/>
                             <constraint firstItem="hKr-Uh-g8Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="116" id="PD4-SF-T4M"/>
+                            <constraint firstItem="hKr-Uh-g8Z" firstAttribute="top" secondItem="3IJ-jN-zdD" secondAttribute="bottom" constant="8" symbolic="YES" id="SrG-7P-L9s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3IJ-jN-zdD" secondAttribute="trailing" constant="63" id="cdk-M6-bGV"/>
                             <constraint firstItem="duO-tM-D7f" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="256.5" id="flY-JU-px9"/>
                             <constraint firstItem="duO-tM-D7f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="mGK-O4-OJh"/>
                             <constraint firstItem="hKr-Uh-g8Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="182" id="wUD-YU-1VH"/>
@@ -93,6 +103,7 @@
                         <outlet property="highestScore" destination="DqG-FP-jHa" id="8qB-tW-sa6"/>
                         <outlet property="loseCount" destination="H9w-hy-hsY" id="7sg-c3-D0l"/>
                         <outlet property="nickname" destination="O7V-KD-nQh" id="fyo-aq-fzY"/>
+                        <outlet property="titleLabel" destination="3IJ-jN-zdD" id="5Ej-Uq-O4X"/>
                         <outlet property="winCount" destination="2nW-b1-Iu7" id="XYq-FL-jng"/>
                     </connections>
                 </viewController>
@@ -171,14 +182,14 @@
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="3IJ-jN-zdD"/>
+    </designables>
     <resources>
         <image name="crown.fill" catalog="system" width="128" height="92"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
