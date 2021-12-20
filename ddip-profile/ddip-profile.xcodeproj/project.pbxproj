@@ -16,6 +16,7 @@
 		3A393208276CF2F800D8C014 /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A393207276CF2F800D8C014 /* RankViewController.swift */; };
 		3A39320A276CFBFC00D8C014 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A393209276CFBFC00D8C014 /* Constraints.swift */; };
 		3A39320E276CFC9B00D8C014 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39320D276CFC9B00D8C014 /* User.swift */; };
+		3ABC09892770DAC20057CFE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ABC09882770DAC20057CFE7 /* GoogleService-Info.plist */; };
 		6C36964108A69EB9A83B753A /* Pods_ddip_profile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DF55370E7C09E0AD361226 /* Pods_ddip_profile.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		3A393207276CF2F800D8C014 /* RankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
 		3A393209276CFBFC00D8C014 /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 		3A39320D276CFC9B00D8C014 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3ABC09882770DAC20057CFE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		613E05E0E45C42966E6A79BA /* Pods-ddip-profile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ddip-profile.release.xcconfig"; path = "Target Support Files/Pods-ddip-profile/Pods-ddip-profile.release.xcconfig"; sourceTree = "<group>"; };
 		79DB73BDFC14778BA9C7F159 /* Pods-ddip-profile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ddip-profile.debug.xcconfig"; path = "Target Support Files/Pods-ddip-profile/Pods-ddip-profile.debug.xcconfig"; sourceTree = "<group>"; };
 		91DF55370E7C09E0AD361226 /* Pods_ddip_profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ddip_profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,7 @@
 				3A3931FA276CEEE500D8C014 /* Assets.xcassets */,
 				3A3931FC276CEEE500D8C014 /* LaunchScreen.storyboard */,
 				3A3931FF276CEEE500D8C014 /* Info.plist */,
+				3ABC09882770DAC20057CFE7 /* GoogleService-Info.plist */,
 			);
 			path = "ddip-profile";
 			sourceTree = "<group>";
@@ -121,7 +124,6 @@
 				79DB73BDFC14778BA9C7F159 /* Pods-ddip-profile.debug.xcconfig */,
 				613E05E0E45C42966E6A79BA /* Pods-ddip-profile.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3931FE276CEEE500D8C014 /* LaunchScreen.storyboard in Resources */,
+				3ABC09892770DAC20057CFE7 /* GoogleService-Info.plist in Resources */,
 				3A3931FB276CEEE500D8C014 /* Assets.xcassets in Resources */,
 				3A3931F9276CEEE200D8C014 /* Main.storyboard in Resources */,
 			);

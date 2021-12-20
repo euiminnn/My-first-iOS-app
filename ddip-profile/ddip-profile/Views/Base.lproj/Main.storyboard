@@ -183,7 +183,9 @@
         </scene>
     </scenes>
     <designables>
-        <designable name="3IJ-jN-zdD"/>
+        <designable name="3IJ-jN-zdD">
+            <size key="intrinsicContentSize" width="287" height="60"/>
+        </designable>
     </designables>
     <resources>
         <image name="crown.fill" catalog="system" width="128" height="92"/>
