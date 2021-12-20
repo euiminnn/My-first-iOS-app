@@ -1,0 +1,8 @@
+platform :ios, '13.0'
+
+target 'ddip-profile' do
+  use_frameworks!
+
+  # Pods for ddip-profile
+  pod 'CLTypingLabel', '~> 0.4.0'
+end

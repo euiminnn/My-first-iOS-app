@@ -1,0 +1,6 @@
+framework module Pods_ddip_profile {
+  umbrella header "Pods-ddip-profile-umbrella.h"
+
+  export *
+  module * { export * }
+}
