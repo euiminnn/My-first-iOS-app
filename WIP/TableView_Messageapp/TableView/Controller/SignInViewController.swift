@@ -18,7 +18,7 @@ class SignInViewController: UIViewController {
                 if let e = error {
                     print(e.localizedDescription)
                 } else {
-                    self.performSegue(withIdentifier: "SignIntoChat", sender: self)
+                    self.performSegue(withIdentifier: K.signInSegue, sender: self)
                 }
             }
         }

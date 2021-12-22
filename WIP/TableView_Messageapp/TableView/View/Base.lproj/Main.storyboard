@@ -23,14 +23,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="j9b-bg-duo">
-                                <rect key="frame" x="107" y="678" width="200" height="97"/>
+                                <rect key="frame" x="70" y="678" width="274" height="97"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUr-Xb-vtM">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="43.5"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="3je-57-3vz"/>
-                                            <constraint firstAttribute="height" constant="43.5" id="xLF-Tb-MhT"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="0.0" width="274" height="43.5"/>
                                         <color key="tintColor" red="0.1477419885" green="0.29239184159999998" blue="0.1506793515" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="tinted" title="SignUp" buttonSize="medium">
@@ -42,11 +38,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVy-d3-VBE">
-                                        <rect key="frame" x="0.0" y="53.5" width="200" height="43.5"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="43.5" id="cj2-eN-X4K"/>
-                                            <constraint firstAttribute="width" constant="200" id="xSE-O7-0TC"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="53.5" width="274" height="43.5"/>
                                         <color key="tintColor" red="0.1477419885" green="0.29239184159999998" blue="0.1506793515" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <buttonConfiguration key="configuration" style="filled" title="SignIn" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
@@ -67,13 +59,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="nJM-R3-WuG" firstAttribute="leading" secondItem="vI5-XV-izW" secondAttribute="leading" constant="38" id="3XH-eg-b27"/>
-                            <constraint firstItem="j9b-bg-duo" firstAttribute="leading" secondItem="vI5-XV-izW" secondAttribute="leading" constant="107" id="79Y-2U-0ft"/>
-                            <constraint firstItem="vI5-XV-izW" firstAttribute="trailing" secondItem="j9b-bg-duo" secondAttribute="trailing" constant="107" id="Hq4-nq-Rsq"/>
                             <constraint firstItem="vI5-XV-izW" firstAttribute="bottom" secondItem="j9b-bg-duo" secondAttribute="bottom" constant="87" id="Tgc-zB-0rJ"/>
                             <constraint firstItem="vI5-XV-izW" firstAttribute="trailing" secondItem="nJM-R3-WuG" secondAttribute="trailing" constant="38" id="aOK-xb-rXw"/>
+                            <constraint firstItem="vI5-XV-izW" firstAttribute="trailing" secondItem="j9b-bg-duo" secondAttribute="trailing" constant="70" id="bg7-yy-84t" userLabel="Safe Area.trailing = Stack View.trailing + 70"/>
                             <constraint firstItem="j9b-bg-duo" firstAttribute="top" secondItem="nJM-R3-WuG" secondAttribute="bottom" constant="418" id="bw7-hK-4CS"/>
+                            <constraint firstItem="j9b-bg-duo" firstAttribute="leading" secondItem="vI5-XV-izW" secondAttribute="leading" constant="70" id="dwR-mW-6TY" userLabel="Stack View.leading = Safe Area.leading + 70"/>
                             <constraint firstItem="nJM-R3-WuG" firstAttribute="top" secondItem="vI5-XV-izW" secondAttribute="top" constant="112" id="q7K-Ff-JWC"/>
-                            <constraint firstItem="j9b-bg-duo" firstAttribute="top" secondItem="nJM-R3-WuG" secondAttribute="bottom" constant="418" id="zEw-X5-nRI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Nni-T0-SR6"/>
@@ -246,28 +237,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="5Gb-qq-njE">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="578"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="710"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rM0-ga-lur">
-                                <rect key="frame" x="32" y="828" width="350" height="34"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rM0-ga-lur">
+                                <rect key="frame" x="20" y="828" width="374" height="34"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write a message" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tqy-Pl-y7z" userLabel="messageTextfield">
-                                        <rect key="frame" x="0.0" y="0.0" width="304" height="34"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="304" id="B2t-Bo-e02"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="0.0" width="330" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRD-W4-zhD" userLabel="send">
-                                        <rect key="frame" x="316" y="0.0" width="34" height="34"/>
+                                        <rect key="frame" x="340" y="0.0" width="34" height="34"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="34" id="3js-Vk-Wlv"/>
-                                            <constraint firstAttribute="height" constant="34" id="wmU-3i-R4H"/>
+                                            <constraint firstAttribute="height" constant="34" id="4qL-Zp-juY"/>
+                                            <constraint firstAttribute="width" constant="34" id="7WM-3x-00U"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain">
+                                        <buttonConfiguration key="configuration" style="plain" title="">
                                             <backgroundConfiguration key="background" image="arrow.up.circle.fill" catalog="system"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -280,13 +268,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="5Gb-qq-njE" firstAttribute="centerX" secondItem="rM0-ga-lur" secondAttribute="centerX" id="08t-7q-Fh0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rM0-ga-lur" secondAttribute="trailing" constant="32" id="7YJ-cD-TLi"/>
-                            <constraint firstItem="rM0-ga-lur" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="P3b-ru-cFX"/>
-                            <constraint firstItem="rM0-ga-lur" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="Xz4-Cr-WHy"/>
-                            <constraint firstItem="rM0-ga-lur" firstAttribute="top" secondItem="5Gb-qq-njE" secondAttribute="bottom" constant="250" id="cWE-c4-dm1"/>
-                            <constraint firstItem="5Gb-qq-njE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nMP-4p-tp9"/>
-                            <constraint firstItem="5Gb-qq-njE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-88" id="sTt-ih-xjt"/>
+                            <constraint firstItem="rM0-ga-lur" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="4Yz-aB-oXT"/>
+                            <constraint firstItem="rM0-ga-lur" firstAttribute="top" secondItem="5Gb-qq-njE" secondAttribute="bottom" constant="30" id="5Qb-5U-fbC"/>
+                            <constraint firstItem="5Gb-qq-njE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BTo-ut-5wW"/>
+                            <constraint firstItem="5Gb-qq-njE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UO8-4l-A8N"/>
+                            <constraint firstItem="5Gb-qq-njE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fuC-od-s45"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rM0-ga-lur" secondAttribute="trailing" constant="20" id="hNc-Nj-GMb"/>
+                            <constraint firstItem="rM0-ga-lur" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="so7-XP-8Wc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iWt-ye-7VD">
@@ -330,7 +318,7 @@
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="0YE-il-X3E"/>
+        <segue reference="488-Gd-ZTf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.up.circle.fill" catalog="system" width="128" height="121"/>

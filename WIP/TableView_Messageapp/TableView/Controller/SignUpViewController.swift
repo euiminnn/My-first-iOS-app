@@ -28,7 +28,7 @@ class SignUpViewController: UIViewController {
                             self.present(alert, animated: true)
                     })
                 } else {
-                    self.performSegue(withIdentifier: "SignUptoChat", sender: self)
+                    self.performSegue(withIdentifier: K.signUpSegue, sender: self)
                 }
             }
         }

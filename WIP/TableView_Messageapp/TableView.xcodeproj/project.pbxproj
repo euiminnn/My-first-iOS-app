@@ -117,6 +117,7 @@
 			children = (
 				3A6572F627639887008E3378 /* Main.storyboard */,
 				3A413BB427642EE900192ABF /* MessageCell.xib */,
+				3A413BB327642EE900192ABF /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,7 +125,6 @@
 		3A65730827639C3A008E3378 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3A413BB327642EE900192ABF /* MessageCell.swift */,
 				3A6572F427639887008E3378 /* ChatViewController.swift */,
 				3ABE339927732C8E001CB379 /* WelcomeViewController.swift */,
 				3ABE339B2773787E001CB379 /* SignUpViewController.swift */,
