@@ -29,7 +29,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.48221700169999998" green="0.39283763109999997" blue="0.78223339160000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.2802833018" green="0.15231505300000001" blue="0.087247298129999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="XfZ-iS-EiF" secondAttribute="trailing" constant="15" id="BZk-v1-XAH"/>
                                     <constraint firstItem="XfZ-iS-EiF" firstAttribute="top" secondItem="yAz-z3-Ctg" secondAttribute="top" constant="10" id="l4u-3Z-JIz"/>
@@ -39,7 +39,7 @@
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="face.smiling.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wXQ-rr-bBC">
                                 <rect key="frame" x="275" y="0.5" width="40" height="39"/>
-                                <color key="tintColor" red="0.4822170017083916" green="0.39283763112237757" blue="0.78223339156643357" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.2802833018" green="0.15231505300000001" blue="0.087247298129999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="9z1-BB-6BS"/>
                                     <constraint firstAttribute="height" constant="40" id="yvV-ah-2Lz"/>

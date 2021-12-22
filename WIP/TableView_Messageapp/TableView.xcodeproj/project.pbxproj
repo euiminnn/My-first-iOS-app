@@ -20,6 +20,8 @@
 		3A65730527639C18008E3378 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65730427639C18008E3378 /* Message.swift */; };
 		3ABE3396277322B7001CB379 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE3395277322B7001CB379 /* GoogleService-Info.plist */; };
 		3ABE339A27732C8E001CB379 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE339927732C8E001CB379 /* WelcomeViewController.swift */; };
+		3ABE339C2773787E001CB379 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE339B2773787E001CB379 /* SignUpViewController.swift */; };
+		3ABE339E2773788B001CB379 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE339D2773788B001CB379 /* SignInViewController.swift */; };
 		3AF47B012767409500F452B7 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3AF47B002767409500F452B7 /* IQKeyboardManagerSwift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		3A65730427639C18008E3378 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		3ABE3395277322B7001CB379 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3ABE339927732C8E001CB379 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3ABE339B2773787E001CB379 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3ABE339D2773788B001CB379 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		678B86A27F52810DC9256C61 /* Pods_TableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D958248517CED7AA7A2A041 /* Pods-TableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView.debug.xcconfig"; path = "Target Support Files/Pods-TableView/Pods-TableView.debug.xcconfig"; sourceTree = "<group>"; };
 		AB574583274B13985288C2EC /* Pods-TableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView.release.xcconfig"; path = "Target Support Files/Pods-TableView/Pods-TableView.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				3A413BB327642EE900192ABF /* MessageCell.swift */,
 				3A6572F427639887008E3378 /* ChatViewController.swift */,
 				3ABE339927732C8E001CB379 /* WelcomeViewController.swift */,
+				3ABE339B2773787E001CB379 /* SignUpViewController.swift */,
+				3ABE339D2773788B001CB379 /* SignInViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,8 +266,10 @@
 			files = (
 				3A6572F527639887008E3378 /* ChatViewController.swift in Sources */,
 				3A413BB527642EE900192ABF /* MessageCell.swift in Sources */,
+				3ABE339C2773787E001CB379 /* SignUpViewController.swift in Sources */,
 				3A65730527639C18008E3378 /* Message.swift in Sources */,
 				3A6572F127639887008E3378 /* AppDelegate.swift in Sources */,
+				3ABE339E2773788B001CB379 /* SignInViewController.swift in Sources */,
 				3A6572F327639887008E3378 /* SceneDelegate.swift in Sources */,
 				3A413BB8276436FC00192ABF /* Constants.swift in Sources */,
 				3ABE339A27732C8E001CB379 /* WelcomeViewController.swift in Sources */,
