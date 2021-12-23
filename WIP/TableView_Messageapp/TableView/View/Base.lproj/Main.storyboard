@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sR3-Nq-ADR">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -237,19 +238,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="5Gb-qq-njE">
-                                <rect key="frame" x="0.0" y="88" width="414" height="710"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="740"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rM0-ga-lur">
-                                <rect key="frame" x="20" y="828" width="374" height="34"/>
+                                <rect key="frame" x="0.0" y="828" width="414" height="34"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write a message" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tqy-Pl-y7z" userLabel="messageTextfield">
-                                        <rect key="frame" x="0.0" y="0.0" width="330" height="34"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="370" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRD-W4-zhD" userLabel="send">
-                                        <rect key="frame" x="340" y="0.0" width="34" height="34"/>
+                                        <rect key="frame" x="380" y="0.0" width="34" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="4qL-Zp-juY"/>
                                             <constraint firstAttribute="width" constant="34" id="7WM-3x-00U"/>
@@ -268,13 +269,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="rM0-ga-lur" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="4Yz-aB-oXT"/>
-                            <constraint firstItem="rM0-ga-lur" firstAttribute="top" secondItem="5Gb-qq-njE" secondAttribute="bottom" constant="30" id="5Qb-5U-fbC"/>
-                            <constraint firstItem="5Gb-qq-njE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BTo-ut-5wW"/>
-                            <constraint firstItem="5Gb-qq-njE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UO8-4l-A8N"/>
-                            <constraint firstItem="5Gb-qq-njE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fuC-od-s45"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rM0-ga-lur" secondAttribute="trailing" constant="20" id="hNc-Nj-GMb"/>
-                            <constraint firstItem="rM0-ga-lur" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="so7-XP-8Wc"/>
+                            <constraint firstItem="rM0-ga-lur" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="1Ub-lp-yVk"/>
+                            <constraint firstItem="5Gb-qq-njE" firstAttribute="bottom" secondItem="rM0-ga-lur" secondAttribute="top" id="5Wu-iX-JsJ"/>
+                            <constraint firstItem="5Gb-qq-njE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LS2-1e-jSn"/>
+                            <constraint firstItem="5Gb-qq-njE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OPk-9L-7u0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rM0-ga-lur" secondAttribute="trailing" id="VQX-oa-iWs"/>
+                            <constraint firstItem="5Gb-qq-njE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gA5-68-NeK"/>
+                            <constraint firstItem="rM0-ga-lur" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gh2-8D-HIa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iWt-ye-7VD">
