@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '13.0'
+ platform :ios, '13.0'
 
 target 'TableView' do
   use_frameworks!
@@ -9,7 +9,7 @@ target 'TableView' do
   pod 'Firebase/Firestore'
   pod 'FirebaseFirestoreSwift'
   pod 'CLTypingLabel', '~> 0.4.0'
-  pod 'IQKeyboardManagerSwift'
+#  pod 'IQKeyboardManagerSwift'
 
 
 end

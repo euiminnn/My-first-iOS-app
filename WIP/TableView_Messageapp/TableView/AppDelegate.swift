@@ -7,7 +7,7 @@
 
 import UIKit
 import Firebase
-import IQKeyboardManagerSwift
+//import IQKeyboardManagerSwift
 
 
 @main
@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let db = Firestore.firestore()
         print(db)
         
-        IQKeyboardManager.shared.enable = true
+//        IQKeyboardManager.shared.enable = true
         
 //
 //        IQKeyboardManager.shared.enable = true

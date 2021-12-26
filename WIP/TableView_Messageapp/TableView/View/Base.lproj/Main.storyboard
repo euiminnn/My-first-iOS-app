@@ -18,16 +18,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🥑 AvoKaTalk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJM-R3-WuG" customClass="CLTypingLabel" customModule="CLTypingLabel">
-                                <rect key="frame" x="38" y="200" width="338" height="60"/>
+                                <rect key="frame" x="38" y="200" width="338" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="50"/>
                                 <color key="textColor" red="0.29239184155906595" green="0.14232781833396493" blue="0.048946960048624838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="j9b-bg-duo">
-                                <rect key="frame" x="70" y="678" width="274" height="97"/>
+                                <rect key="frame" x="70" y="618" width="274" height="157"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUr-Xb-vtM">
-                                        <rect key="frame" x="0.0" y="0.0" width="274" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="274" height="73.5"/>
                                         <color key="tintColor" red="0.1477419885" green="0.29239184159999998" blue="0.1506793515" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="tinted" title="SignUp" buttonSize="medium">
@@ -39,7 +39,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVy-d3-VBE">
-                                        <rect key="frame" x="0.0" y="53.5" width="274" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="83.5" width="274" height="73.5"/>
                                         <color key="tintColor" red="0.1477419885" green="0.29239184159999998" blue="0.1506793515" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <buttonConfiguration key="configuration" style="filled" title="SignIn" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
@@ -314,9 +314,7 @@
         </scene>
     </scenes>
     <designables>
-        <designable name="nJM-R3-WuG">
-            <size key="intrinsicContentSize" width="319.5" height="60"/>
-        </designable>
+        <designable name="nJM-R3-WuG"/>
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="488-Gd-ZTf"/>
