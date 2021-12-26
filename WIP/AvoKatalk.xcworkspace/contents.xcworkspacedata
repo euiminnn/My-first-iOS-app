@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:TableView_Messageapp/Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "container:TableView_Messageapp/AvoKatalk.xcodeproj">
    </FileRef>
 </Workspace>
