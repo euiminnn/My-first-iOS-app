@@ -12,9 +12,10 @@ class MessageCell: UITableViewCell {
     @IBOutlet weak var messageBubble: UIView!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var rightimageView: UIImageView!
+    @IBOutlet weak var leftimageView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        messageBubble.layer.cornerRadius = messageBubble.frame.height * 0.2
+        messageBubble.layer.cornerRadius = messageBubble.frame.height / 10
         // Initialization code
     }
 
