@@ -9,7 +9,7 @@ import UIKit
 
 
 struct K {
-    static let appName = "🥑 AvoKaTalk"
+    static let appName = "AvoKaTalk"
     
     static let cellIdentifier = "ReusableCell"
     static let cellNibName = "MessageCell"

@@ -16,16 +16,28 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avocado_bg" translatesAutoresizingMaskIntoConstraints="NO" id="RhB-gw-RRf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="RhB-gw-RRf" secondAttribute="bottom" id="2VR-VJ-GsR"/>
+                            <constraint firstItem="RhB-gw-RRf" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="3ld-88-5At"/>
+                            <constraint firstItem="RhB-gw-RRf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="m96-wJ-oR8"/>
+                            <constraint firstItem="RhB-gw-RRf" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="rtE-vc-cFd"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="51.5625" y="373.91304347826087"/>
         </scene>
     </scenes>
     <resources>
+        <image name="avocado_bg" width="1536" height="1024"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
