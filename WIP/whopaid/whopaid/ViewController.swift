@@ -14,6 +14,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var bPaidLabel: UITextField!
     @IBOutlet weak var resultLabel: UILabel!
     
+    @IBAction func tappedOutside(_ sender: UITapGestureRecognizer) {
+        self.view.endEditing(true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -46,7 +49,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if (aAmount + bAmount) != nil {
             totalLabel.text = "\(aAmount + bAmount)"
         }
-        
+        if aAmount > bAmount {
+            let diff = aAmount - bAmount
+            resultLabel.text = "A가 B에게 \(diff/2)원 보내주면 돼요!"
+        } else if aAmount < bAmount {
+            let diff = bAmount - aAmount
+            resultLabel.text = "B가 A에게 \(diff/2)원 보내주면 돼요!"
+        } else {
+            resultLabel.text = "정산할게 없어요!"
+        }
 
     }
     
