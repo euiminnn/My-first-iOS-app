@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var aPaidLabel: UITextField!
@@ -20,10 +20,37 @@ class ViewController: UIViewController {
     }
     
 
+    private var aAmount: Int {
+        get {
+            guard let number = Int(aPaidLabel.text!) else {
+                fatalError("Cannot convert a display label text to a Int: A.")
+            }
+            return number
+        }
+        set {
+            aPaidLabel.text = String(newValue)
+        }
+    }
+    private var bAmount: Int {
+        get {
+            guard let number = Int(bPaidLabel.text!) else {
+                fatalError("Cannot convert a display label text to a Int: B.")
+            }
+            return number
+        }
+        set {
+            bPaidLabel.text = String(newValue)
+        }
+    }
     @IBAction func buttonTapped(_ sender: UIButton) {
-        print("button tapped")
+        if (aAmount + bAmount) != nil {
+            totalLabel.text = "\(aAmount + bAmount)"
+        }
+        
+
     }
     
+
 
 }
 
