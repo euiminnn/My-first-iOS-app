@@ -10,6 +10,7 @@
 		3A3303A92784623B00C5D0BB /* PaidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3303A72784623B00C5D0BB /* PaidCell.swift */; };
 		3A3303AA2784623B00C5D0BB /* PaidCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3303A82784623B00C5D0BB /* PaidCell.xib */; };
 		3A3303AD278464A600C5D0BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3303AC278464A600C5D0BB /* Constants.swift */; };
+		3A3303AF2784E9FB00C5D0BB /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3303AE2784E9FB00C5D0BB /* Transaction.swift */; };
 		3A43128827834E450062C7AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A43128727834E450062C7AE /* AppDelegate.swift */; };
 		3A43128A27834E450062C7AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A43128927834E450062C7AE /* SceneDelegate.swift */; };
 		3A43128C27834E450062C7AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A43128B27834E450062C7AE /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		3A3303A72784623B00C5D0BB /* PaidCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidCell.swift; sourceTree = "<group>"; };
 		3A3303A82784623B00C5D0BB /* PaidCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaidCell.xib; sourceTree = "<group>"; };
 		3A3303AC278464A600C5D0BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3A3303AE2784E9FB00C5D0BB /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		3A43128427834E450062C7AE /* whopaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whopaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A43128727834E450062C7AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A43128927834E450062C7AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +54,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3A3303B02784EA0100C5D0BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A3303AE2784E9FB00C5D0BB /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A3303B12784EB8600C5D0BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A43128B27834E450062C7AE /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3A43127B27834E450062C7AE = {
 			isa = PBXGroup;
 			children = (
@@ -74,7 +92,8 @@
 				3A43128727834E450062C7AE /* AppDelegate.swift */,
 				3A43128927834E450062C7AE /* SceneDelegate.swift */,
 				3A3303A72784623B00C5D0BB /* PaidCell.swift */,
-				3A43128B27834E450062C7AE /* ViewController.swift */,
+				3A3303B12784EB8600C5D0BB /* Controller */,
+				3A3303B02784EA0100C5D0BB /* Model */,
 				3A3303AB2784624B00C5D0BB /* View */,
 				3A43129027834E470062C7AE /* Assets.xcassets */,
 				3A43129227834E470062C7AE /* LaunchScreen.storyboard */,
@@ -158,6 +177,7 @@
 			files = (
 				3A3303AD278464A600C5D0BB /* Constants.swift in Sources */,
 				3A43128C27834E450062C7AE /* ViewController.swift in Sources */,
+				3A3303AF2784E9FB00C5D0BB /* Transaction.swift in Sources */,
 				3A43128827834E450062C7AE /* AppDelegate.swift in Sources */,
 				3A43128A27834E450062C7AE /* SceneDelegate.swift in Sources */,
 				3A3303A92784623B00C5D0BB /* PaidCell.swift in Sources */,

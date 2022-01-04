@@ -9,40 +9,48 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var tableView: UITableView!
-    
+    /*
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var aPaidLabel: UITextField!
     @IBOutlet weak var bPaidLabel: UITextField!
     @IBOutlet weak var resultLabel: UILabel!
-    
+    */
     @IBAction func tappedOutside(_ sender: UITapGestureRecognizer) {
         self.view.endEditing(true)
     }
     
-    @IBAction func inputPayer(_ sender: Any) {
-    }
     
-    @IBAction func inputAmount(_ sender: Any) {
-    }
-    
+    @IBOutlet weak var inputPayer: UITextField!
+    @IBOutlet weak var inputAmount: UITextField!
+
     @IBAction func addTransactionButton(_ sender: Any) {
+        if let newInputPayer = inputPayer.text,
+           let newInputAmount = inputAmount.text {
+            let newTransaction = Transaction(payer: newInputPayer, amount: newInputAmount)
+            transactions.append(newTransaction)
+            loadTransactions()
+            print(newTransaction.payer)
+            print(newTransaction.amount)
+
+        }
     }
     
+    func loadTransactions() {
+        tableView.reloadData()
+//        let indexPath = IndexPath(row: transactions.count - 1, section: 0)
+    }
     
-    
-    
-    
-    
-    
+    var transactions: [Transaction] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.dataSource = self
         tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
-
+        loadTransactions()
     }
     
-
+/*
     private var aAmount: Int {
         get {
             guard let number = Int(aPaidLabel.text!) else {
@@ -65,7 +73,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
             bPaidLabel.text = String(newValue)
         }
     }
+ */
+    /*
     @IBAction func buttonTapped(_ sender: UIButton) {
+        
+
+        
+        
         if (aAmount + bAmount) != nil {
             totalLabel.text = "\(aAmount + bAmount)"
         }
@@ -80,17 +94,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
 
     }
-    
+    */
 
 
 }
 
-struct Transaction {
-    let payer: String
-    let amount: Int
-}
 
-var transactions: [Transaction] = []
+
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -98,8 +108,10 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let transaction = transactions[indexPath.row]
+        let transaction = transactions[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath) as! PaidCell
+        cell.payerLabel.text = transaction.payer
+        cell.amountLabel.text = transaction.amount
         return cell
     }
 }
