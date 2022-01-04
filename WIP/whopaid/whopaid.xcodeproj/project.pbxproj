@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3303A92784623B00C5D0BB /* PaidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3303A72784623B00C5D0BB /* PaidCell.swift */; };
+		3A3303AA2784623B00C5D0BB /* PaidCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3303A82784623B00C5D0BB /* PaidCell.xib */; };
 		3A43128827834E450062C7AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A43128727834E450062C7AE /* AppDelegate.swift */; };
 		3A43128A27834E450062C7AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A43128927834E450062C7AE /* SceneDelegate.swift */; };
 		3A43128C27834E450062C7AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A43128B27834E450062C7AE /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A3303A72784623B00C5D0BB /* PaidCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidCell.swift; sourceTree = "<group>"; };
+		3A3303A82784623B00C5D0BB /* PaidCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaidCell.xib; sourceTree = "<group>"; };
 		3A43128427834E450062C7AE /* whopaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whopaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A43128727834E450062C7AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A43128927834E450062C7AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A3303AB2784624B00C5D0BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A43128D27834E450062C7AE /* Main.storyboard */,
+				3A3303A82784623B00C5D0BB /* PaidCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3A43127B27834E450062C7AE = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +71,9 @@
 			children = (
 				3A43128727834E450062C7AE /* AppDelegate.swift */,
 				3A43128927834E450062C7AE /* SceneDelegate.swift */,
+				3A3303A72784623B00C5D0BB /* PaidCell.swift */,
 				3A43128B27834E450062C7AE /* ViewController.swift */,
-				3A43128D27834E450062C7AE /* Main.storyboard */,
+				3A3303AB2784624B00C5D0BB /* View */,
 				3A43129027834E470062C7AE /* Assets.xcassets */,
 				3A43129227834E470062C7AE /* LaunchScreen.storyboard */,
 				3A43129527834E470062C7AE /* Info.plist */,
@@ -128,6 +142,7 @@
 				3A43129427834E470062C7AE /* LaunchScreen.storyboard in Resources */,
 				3A43129127834E470062C7AE /* Assets.xcassets in Resources */,
 				3A43128F27834E450062C7AE /* Main.storyboard in Resources */,
+				3A3303AA2784623B00C5D0BB /* PaidCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				3A43128C27834E450062C7AE /* ViewController.swift in Sources */,
 				3A43128827834E450062C7AE /* AppDelegate.swift in Sources */,
 				3A43128A27834E450062C7AE /* SceneDelegate.swift in Sources */,
+				3A3303A92784623B00C5D0BB /* PaidCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
