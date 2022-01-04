@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PaidCell" customModule="whopaid" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReusableCell" id="KGk-i7-Jjw" customClass="PaidCell" customModule="whopaid" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -23,36 +23,28 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qrN-ea-o7g" userLabel="Payer">
                                 <rect key="frame" x="0.0" y="0.0" width="113" height="44"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Lc-FH-Ngq">
-                                        <rect key="frame" x="10" y="5" width="93" height="34"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Payer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7za-a1-LYG">
+                                        <rect key="frame" x="35" y="12" width="43" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="8Lc-FH-Ngq" secondAttribute="bottom" constant="5" id="3Ti-id-LS9"/>
-                                    <constraint firstItem="8Lc-FH-Ngq" firstAttribute="leading" secondItem="qrN-ea-o7g" secondAttribute="leading" constant="10" id="Ce0-mt-Wln"/>
-                                    <constraint firstItem="8Lc-FH-Ngq" firstAttribute="top" secondItem="qrN-ea-o7g" secondAttribute="top" constant="5" id="UQP-sf-XyK"/>
-                                    <constraint firstAttribute="trailing" secondItem="8Lc-FH-Ngq" secondAttribute="trailing" constant="10" id="zlA-b2-Gdp"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mSu-Md-uhN" userLabel="Amount">
                                 <rect key="frame" x="113" y="0.0" width="207" height="44"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zwW-lA-MsJ">
-                                        <rect key="frame" x="10" y="5" width="187" height="34"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eh-nG-KdR">
+                                        <rect key="frame" x="82" y="12" width="65" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                <constraints>
-                                    <constraint firstItem="zwW-lA-MsJ" firstAttribute="leading" secondItem="mSu-Md-uhN" secondAttribute="leading" constant="10" id="KVu-wI-L1l"/>
-                                    <constraint firstAttribute="trailing" secondItem="zwW-lA-MsJ" secondAttribute="trailing" constant="10" id="TsK-k8-UuZ"/>
-                                    <constraint firstAttribute="bottom" secondItem="zwW-lA-MsJ" secondAttribute="bottom" constant="5" id="kcL-xz-WhI"/>
-                                    <constraint firstItem="zwW-lA-MsJ" firstAttribute="top" secondItem="mSu-Md-uhN" secondAttribute="top" constant="5" id="rY9-X8-Ifg"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <constraints>
@@ -71,6 +63,10 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="amountLabel" destination="7eh-nG-KdR" id="sjF-Qy-xe6"/>
+                <outlet property="payerLabel" destination="7za-a1-LYG" id="Dob-RK-xEc"/>
+            </connections>
             <point key="canvasLocation" x="137.68115942028987" y="79.6875"/>
         </tableViewCell>
     </objects>

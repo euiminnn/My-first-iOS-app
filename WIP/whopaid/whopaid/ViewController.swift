@@ -8,7 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
-
+    @IBOutlet weak var tableView: UITableView!
+    
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var aPaidLabel: UITextField!
     @IBOutlet weak var bPaidLabel: UITextField!
@@ -17,9 +18,28 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func tappedOutside(_ sender: UITapGestureRecognizer) {
         self.view.endEditing(true)
     }
+    
+    @IBAction func inputPayer(_ sender: Any) {
+    }
+    
+    @IBAction func inputAmount(_ sender: Any) {
+    }
+    
+    @IBAction func addTransactionButton(_ sender: Any) {
+    }
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        tableView.dataSource = self
+        tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
+
     }
     
 
@@ -64,4 +84,25 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
 
 }
+
+struct Transaction {
+    let payer: String
+    let amount: Int
+}
+
+var transactions: [Transaction] = []
+
+extension ViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return transactions.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let transaction = transactions[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath) as! PaidCell
+        return cell
+    }
+}
+
+
 

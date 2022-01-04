@@ -9,6 +9,8 @@ import UIKit
 
 class PaidCell: UITableViewCell {
 
+    @IBOutlet weak var payerLabel: UILabel!
+    @IBOutlet weak var amountLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
