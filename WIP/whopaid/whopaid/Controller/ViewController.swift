@@ -23,16 +23,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var inputPayer: UITextField!
     @IBOutlet weak var inputAmount: UITextField!
 
-    @IBAction func addTransactionButton(_ sender: Any) {
+    @IBAction func addTransactionButtonTapped(_ sender: Any) {
         if let newInputPayer = inputPayer.text,
            let newInputAmount = inputAmount.text {
             let newTransaction = Transaction(payer: newInputPayer, amount: newInputAmount)
             transactions.append(newTransaction)
             loadTransactions()
-            print(newTransaction.payer)
-            print(newTransaction.amount)
 
         }
+        inputPayer.text = ""
+        inputAmount.text = ""
     }
     
     func loadTransactions() {
