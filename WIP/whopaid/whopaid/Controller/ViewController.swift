@@ -47,13 +47,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
 
     @IBAction func doneButtonTapped(_ sender: Any) {
-        let indexPath = IndexPath(row: transactions.count - 1, section: 0)
         var total = 0
-        for _ in 1...indexPath.row {
-            let transaction = transactions[indexPath.row]
+        var index = 0
+        while index < transactions.count {
+            let transaction = transactions[index]
             total = total + transaction.amount
+            index += 1
         }
-        resultLabel.text = "Total: \(total)"
+        let perPerson = total / transactions.count
+        resultLabel.text = "Total: \(total), Per person: \(perPerson)"
     }
     
     
