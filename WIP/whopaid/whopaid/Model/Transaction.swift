@@ -9,5 +9,5 @@ import Foundation
 
 struct Transaction {
     let payer: String
-    let amount: String
+    let amount: Int
 }

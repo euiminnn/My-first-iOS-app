@@ -15,17 +15,22 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var bPaidLabel: UITextField!
     @IBOutlet weak var resultLabel: UILabel!
     */
+    @IBOutlet weak var resultLabel: UILabel!
+    
+
     @IBAction func tappedOutside(_ sender: UITapGestureRecognizer) {
         self.view.endEditing(true)
     }
-    
+    @IBAction func calculateButtonTapped(_ sender: Any) {
+    }
     
     @IBOutlet weak var inputPayer: UITextField!
     @IBOutlet weak var inputAmount: UITextField!
 
     @IBAction func addTransactionButtonTapped(_ sender: Any) {
-        if let newInputPayer = inputPayer.text,
-           let newInputAmount = inputAmount.text {
+        let newInputAmount = stringIntoInt(str: inputAmount.text!)
+        if let newInputPayer = inputPayer.text {
+//           let newInputAmount = stringIntoInt(str: inputAmount.text) {
             let newTransaction = Transaction(payer: newInputPayer, amount: newInputAmount)
             transactions.append(newTransaction)
             loadTransactions()
@@ -34,11 +39,30 @@ class ViewController: UIViewController, UITextFieldDelegate {
         inputPayer.text = ""
         inputAmount.text = ""
     }
+    func stringIntoInt (str: String) -> (Int) {
+            guard let number = Int(str) else {
+                fatalError("Cannot convert into a Int.")
+            }
+            return number
+        }
+
+    @IBAction func doneButtonTapped(_ sender: Any) {
+        let indexPath = IndexPath(row: transactions.count - 1, section: 0)
+        var total = 0
+        for _ in 1...indexPath.row {
+            let transaction = transactions[indexPath.row]
+            total = total + transaction.amount
+        }
+        resultLabel.text = "Total: \(total)"
+    }
+    
+    
     
     func loadTransactions() {
         tableView.reloadData()
 //        let indexPath = IndexPath(row: transactions.count - 1, section: 0)
     }
+    
     
     var transactions: [Transaction] = []
 
@@ -111,7 +135,7 @@ extension ViewController: UITableViewDataSource {
         let transaction = transactions[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath) as! PaidCell
         cell.payerLabel.text = transaction.payer
-        cell.amountLabel.text = transaction.amount
+        cell.amountLabel.text = "\(transaction.amount)"
         return cell
     }
 }
