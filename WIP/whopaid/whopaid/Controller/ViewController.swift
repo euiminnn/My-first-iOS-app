@@ -17,12 +17,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     */
     @IBOutlet weak var resultLabel: UILabel!
     
-
+    @IBOutlet weak var calculateResultLabel: UILabel!
+    
+    @IBOutlet weak var calculateButton: UIButton!
     @IBAction func tappedOutside(_ sender: UITapGestureRecognizer) {
         self.view.endEditing(true)
     }
-    @IBAction func calculateButtonTapped(_ sender: Any) {
-    }
+
     
     @IBOutlet weak var inputPayer: UITextField!
     @IBOutlet weak var inputAmount: UITextField!
@@ -47,6 +48,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
 
     @IBAction func doneButtonTapped(_ sender: Any) {
+        calculateButton.backgroundColor = .blue
         var total = 0
         var index = 0
         while index < transactions.count {
@@ -55,7 +57,28 @@ class ViewController: UIViewController, UITextFieldDelegate {
             index += 1
         }
         let perPerson = total / transactions.count
+        
+
         resultLabel.text = "Total: \(total), Per person: \(perPerson)"
+    }
+    @IBAction func calculateButtonTapped(_ sender: Any) {
+        var total = 0
+        var index = 0
+        while index < transactions.count {
+            let transaction = transactions[index]
+            total = total + transaction.amount
+            index += 1
+        }
+        let perPerson = total / transactions.count
+        let personA = transactions[0].payer
+        let personAPaid = transactions[0].amount
+        let resultA = perPerson - personAPaid
+        
+        let personB = transactions[1].payer
+        let personBPaid = transactions[1].amount
+        let resultB = perPerson - personBPaid
+        calculateResultLabel.text = "\(personA) should pay \(resultA) and \(personB) should pay \(resultB)"
+        
     }
     
     
