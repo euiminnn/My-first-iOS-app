@@ -9,12 +9,6 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var tableView: UITableView!
-    /*
-    @IBOutlet weak var totalLabel: UILabel!
-    @IBOutlet weak var aPaidLabel: UITextField!
-    @IBOutlet weak var bPaidLabel: UITextField!
-    @IBOutlet weak var resultLabel: UILabel!
-    */
     @IBOutlet weak var resultLabel: UILabel!
     
     @IBOutlet weak var calculateResultLabel: UILabel!
@@ -30,9 +24,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBAction func addTransactionButtonTapped(_ sender: Any) {
         let newInputAmount = stringIntoInt(str: inputAmount.text!)
-        if let newInputPayer = inputPayer.text {
-//           let newInputAmount = stringIntoInt(str: inputAmount.text) {
-            let newTransaction = Transaction(payer: newInputPayer, amount: newInputAmount)
+        if let newInputPayer = inputPayer.text {            let newTransaction = Transaction(payer: newInputPayer, amount: newInputAmount)
             transactions.append(newTransaction)
             loadTransactions()
 
@@ -85,7 +77,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func loadTransactions() {
         tableView.reloadData()
-//        let indexPath = IndexPath(row: transactions.count - 1, section: 0)
     }
     
     
