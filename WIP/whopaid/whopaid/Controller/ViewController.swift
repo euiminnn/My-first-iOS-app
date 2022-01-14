@@ -18,16 +18,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.view.endEditing(true)
     }
 
-    
+    var transactions: [Transaction] = []
+
     @IBOutlet weak var inputPayer: UITextField!
     @IBOutlet weak var inputAmount: UITextField!
 
     @IBAction func addTransactionButtonTapped(_ sender: Any) {
         let newInputAmount = stringIntoInt(str: inputAmount.text!)
-        if let newInputPayer = inputPayer.text {            let newTransaction = Transaction(payer: newInputPayer, amount: newInputAmount)
+        if let newInputPayer = inputPayer.text {
+            let newTransaction = Transaction(payer: newInputPayer, amount: newInputAmount)
             transactions.append(newTransaction)
             loadTransactions()
-
         }
         inputPayer.text = ""
         inputAmount.text = ""
@@ -62,14 +63,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
             index += 1
         }
         let perPerson = total / transactions.count
-        let personA = transactions[0].payer
-        let personAPaid = transactions[0].amount
-        let resultA = perPerson - personAPaid
         
-        let personB = transactions[1].payer
-        let personBPaid = transactions[1].amount
-        let resultB = perPerson - personBPaid
-        calculateResultLabel.text = "\(personA) should pay \(resultA) and \(personB) should pay \(resultB)"
+        var payer: [Person] = []
+        payer = [Person(name: transactions[0].payer, amount: transactions[0].amount, shouldpay: perPerson - transactions[0].amount), Person(name: transactions[1].payer, amount: transactions[1].amount, shouldpay: perPerson - transactions[1].amount), Person(name: transactions[2].payer, amount: transactions[2].amount, shouldpay: perPerson - transactions[2].amount)]
+        
+        
+        let check: Int = payer[0].shouldpay + payer[1].shouldpay + payer[2].shouldpay
+        if (check != 0) {
+            calculateResultLabel.text = "Calculation error"
+        }
+        
+        calculateResultLabel.text = "\(payer[0].name) should pay \(payer[0].shouldpay) and \(payer[1].name) should pay \(payer[1].shouldpay) and \(payer[2].name) should pay \(payer[2].shouldpay)"
         
     }
     
@@ -80,7 +84,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     
-    var transactions: [Transaction] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()

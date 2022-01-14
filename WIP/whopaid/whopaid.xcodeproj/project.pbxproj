@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A0D67A02791C61400C7B996 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0D679F2791C61400C7B996 /* Person.swift */; };
 		3A3303A92784623B00C5D0BB /* PaidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3303A72784623B00C5D0BB /* PaidCell.swift */; };
 		3A3303AA2784623B00C5D0BB /* PaidCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3303A82784623B00C5D0BB /* PaidCell.xib */; };
 		3A3303AD278464A600C5D0BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3303AC278464A600C5D0BB /* Constants.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A0D679F2791C61400C7B996 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		3A3303A72784623B00C5D0BB /* PaidCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidCell.swift; sourceTree = "<group>"; };
 		3A3303A82784623B00C5D0BB /* PaidCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaidCell.xib; sourceTree = "<group>"; };
 		3A3303AC278464A600C5D0BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				3A3303AE2784E9FB00C5D0BB /* Transaction.swift */,
+				3A0D679F2791C61400C7B996 /* Person.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				3A43128C27834E450062C7AE /* ViewController.swift in Sources */,
 				3A3303AF2784E9FB00C5D0BB /* Transaction.swift in Sources */,
 				3A43128827834E450062C7AE /* AppDelegate.swift in Sources */,
+				3A0D67A02791C61400C7B996 /* Person.swift in Sources */,
 				3A43128A27834E450062C7AE /* SceneDelegate.swift in Sources */,
 				3A3303A92784623B00C5D0BB /* PaidCell.swift in Sources */,
 			);
